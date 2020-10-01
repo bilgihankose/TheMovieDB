@@ -12,7 +12,7 @@ import Kingfisher
 import TYImageSlider
 
 
-class ViewController: UIViewController {
+class ListViewController: UIViewController {
     
     //MARK: - Variables
     
@@ -121,7 +121,7 @@ class ViewController: UIViewController {
 
 //MARK: - Extensions
 
-extension ViewController: UITableViewDelegate, UITableViewDataSource {
+extension ListViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return titleArray.count
     }
