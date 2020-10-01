@@ -1,0 +1,47 @@
+PODS:
+  - Alamofire (5.2.2)
+  - ImageSlideshow/Core (1.9.1)
+  - ImageSlideshow/Kingfisher (1.9.1):
+    - ImageSlideshow/Core
+    - Kingfisher (> 3.0)
+  - Kingfisher (5.15.4):
+    - Kingfisher/Core (= 5.15.4)
+  - Kingfisher/Core (5.15.4)
+  - SDWebImage (5.9.2):
+    - SDWebImage/Core (= 5.9.2)
+  - SDWebImage/Core (5.9.2)
+  - SwiftyJSON (4.3.0)
+  - TYImageSlider (0.0.9):
+    - SDWebImage
+    - TYPinchableImageView
+  - TYPinchableImageView (0.0.3)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.2)
+  - ImageSlideshow/Kingfisher
+  - Kingfisher (~> 5.15)
+  - SwiftyJSON (~> 4.0)
+  - TYImageSlider
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - ImageSlideshow
+    - Kingfisher
+    - SDWebImage
+    - SwiftyJSON
+    - TYImageSlider
+    - TYPinchableImageView
+
+SPEC CHECKSUMS:
+  Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  ImageSlideshow: 67184be896a28472bd3b906c33ce4e0734aa3d22
+  Kingfisher: 657dc1077e5bbbfff864194c79f29e35b722d062
+  SDWebImage: 0b42b8719ab0c5257177d5894306e8a336b21cbb
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+  TYImageSlider: 3ce2f92dea569776d481083a9c0a8ff2256a0947
+  TYPinchableImageView: 43428dfafebab0c85129aa40313691f845d9d3d0
+
+PODFILE CHECKSUM: 2d60c9869de35e0e2771332551de5e65abf6ba4d
+
+COCOAPODS: 1.9.1

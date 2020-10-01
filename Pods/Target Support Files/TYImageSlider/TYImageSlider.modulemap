@@ -1,0 +1,6 @@
+framework module TYImageSlider {
+  umbrella header "TYImageSlider-umbrella.h"
+
+  export *
+  module * { export * }
+}
